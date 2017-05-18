@@ -1,0 +1,78 @@
+.value{
+  margin-bottom: 84px;
+}
+.value .fright {
+    display: inline-block;
+    float: right;
+    width: 60%;
+    margin-left: 5%;
+}
+
+.value_img {
+    width: 35%;
+    display: inline-block;
+}
+
+.value_img img {
+    max-width: 100%;
+}
+.value p{
+    width: auto;
+}
+.advantage{
+  padding: 90px 0 50px 0;
+}
+.advantage .fleft {
+    display: inline-block;
+    float: left;
+    width: 50%;
+}
+.advantage .common_p {
+    width: 95%;
+    font-size: 16px;
+    color: #646464;
+    line-height: 28px;
+    margin-top: 10px;
+}
+
+.advantage_img {
+    width: 45%;
+    margin-left: 5%;
+    display: inline-block;
+}
+
+.advantage_img img {
+    max-width: 100%;
+}
+
+.process .fright {
+    display: inline-block;
+    float: right;
+    width: 45%;
+    margin-top: 50px;
+}
+
+.process .common_p {
+    width: 100%;
+    font-size: 16px;
+    color: #646464;
+    line-height: 28px;
+}
+
+.process .common_div {
+    width: 75%;
+}
+
+.process_img {
+    width: 55%;
+    display: inline-block;
+    text-align: center;
+}
+
+.process_img img {
+    max-width: 70%;
+}
+
+.content_advantage {
+    background-image: url(../images/art2_bg.png);
+}

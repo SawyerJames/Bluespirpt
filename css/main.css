@@ -1,0 +1,338 @@
+@media screen and (max-width: 970px) {
+  .nav1 ul {
+      position: relative;
+      margin-left: 40%;
+      width: 60%;
+      margin-top: 10px;
+  }
+  .nav1 li {
+      font-family: 微软雅黑;
+      color: #ffffff;
+      float: left;
+      display: inline;
+  }
+  .nav1 a {
+      text-decoration: none;
+      font-size: 18px;
+      display: block;
+      padding: 5px;
+      vertical-align: middle;
+  }
+}
+@media screen and (max-width: 700px) {
+  .nav1 .logo1 {
+    width: 100%;
+  }
+  .nav1 .logo1 img{
+    margin: 25px 0 0 20%;
+  }
+  .nav1 ul {
+      display: none;
+  }
+}
+/********************* reset *******************/
+.clearfix:after,
+.clearfix:before {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+body,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+span {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Microsoft YaHei', "STHeiti", "Microsoft JhengHei", "SimHei";
+    color: #000000;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+html {
+    min-width: 1200px;
+    height: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+
+/*头部*/
+
+.head1 {
+    /* background-image:url(images/bg_head.png); */
+    width: 100%;
+    margin: 0 auto;
+    /*height:800px;*/
+    overflow: hidden;
+    position: relative;
+}
+
+.head1 .bg1 img,
+.head1 .bg2 img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/*导航*/
+
+.nav1 {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    background-image: url(../images/bg_nav.png);
+    position: fixed;
+    top: 0;
+    z-index: 111;
+}
+
+.nav1 .logo1 {
+    margin-left: 20%;
+    position: absolute;
+}
+
+.nav1 img {
+    margin-top: 25px;
+}
+
+.nav1 ul {
+/*    position: relative;*/
+    margin-left: 52%;
+}
+
+.nav1 li {
+    font-size: 22px;
+    font-family: 微软雅黑;
+    color: #ffffff;
+    float: left;
+    display: inline;
+    margin-right: 6%;
+    margin-top: 25px;
+}
+
+.nav1 a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 5px;
+}
+
+.nav1 li a:hover {
+    background: #fff;
+    color: #1080cf;
+    border-radius: 5px;
+}
+
+.nav1 li.active {
+    background: #fff;
+    color: #1080cf;
+    border-radius: 5px;
+}
+
+.nav1 li.active a {
+    color: #1080cf;
+}
+
+
+/*我们的客户，产品，产品价值，优势，流程*/
+
+.artAbout,
+.advantage,
+.artProduct,
+.value,
+.process {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 90px;
+    overflow: hidden;
+}
+
+.common_div {
+    font-family: 微软雅黑;
+    font-size: 1.88vw;
+    color: #414141;
+    width: 68%;
+    border-bottom: 2px solid #1080cf;
+    padding-right: 30px;
+}
+
+.common_span1 {
+    padding-right: 10px;
+}
+
+.common_span2 {
+    margin-left: 10px;
+    font-family: Helvetica Neue LT Pro;
+    font-size: 1.2vw;
+    /* padding-bottom:5px;*/
+    padding-left: 10px;
+    width: 1.2vw;
+    border-left: 2px solid #000;
+    /*vertical-align:middle;*/
+}
+
+.common_h3 {
+    margin: 20px 0px;
+    font-size: 20px;
+}
+
+.common_p {
+    width: 72%;
+    font-size: 16px;
+    color: #646464;
+    line-height: 28px;
+    text-align: justify;
+    text-justify: distribute-all-lines;
+    /*ie6-8*/
+}
+
+.common_p span {
+    font-weight: bold;
+}
+
+
+/*页尾*/
+
+.hr_blue {
+    border-top: 2px solid #1080cf;
+    margin-top: 70px;
+    margin-bottom: -20px;
+}
+
+.footer1 {
+    width: 60%;
+    margin: 0 auto;
+    height: 236px;
+    padding-top: 50px;
+    overflow: hidden;
+}
+
+.footer1 li {
+    float: left;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.footer1 li a {
+    color: #000;
+}
+
+.left {
+    margin-top: 44px;
+}
+
+.left img {
+    width: 4%;
+    height: 4%;
+    margin-right: 3px;
+    position: relative;
+    top: 5px;
+}
+
+.left p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.right {
+    position: relative;
+    left: 60%;
+    bottom: 55%;
+}
+
+.right div {
+    float: left;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.right .top {
+    width: 90%;
+    height: 90%;
+}
+
+
+/*右下角悬浮*/
+
+.fixed {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 12;
+}
+
+.special_ul {
+    float: left;
+    display: none;
+}
+
+.special_ul li {
+    float: left;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.right_float {
+    float: right;
+}
+
+
+/*在线咨询*/
+
+#MEIQIA-BTN {
+    width: 50px !important;
+    height: 98px !important;
+    position: fixed !important;
+    bottom: 0px !important;
+    right: 60px !important;
+    opacity: 0 !important;
+    display: none !important;
+}
+
+
+/*版权*/
+
+.copyright {
+    text-align: center;
+    height: 100px;
+    color: #919191;
+    font-size: 14px;
+    font-family: ;
+}
+
+.copyright p {
+    padding-bottom: 8px;
+}
+
+.copytop {
+    margin-top: 25px;
+}

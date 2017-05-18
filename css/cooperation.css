@@ -1,0 +1,130 @@
+body {
+    overflow-x: hidden;
+}
+
+.section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.tab {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+}
+
+.tab span {
+    font-size: 16px;
+    color: #ccc;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.tab span:last-child {
+    margin-left: 15%;
+}
+
+.tab .active {
+    color: #0082de;
+}
+
+
+/*业务流程样式开始*/
+
+.business {
+    padding-top: 60px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 80px;
+}
+
+.business .process {
+    display: flex;
+    position: relative;
+    margin-top: 44px;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.business img {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+}
+
+.business .process li {
+    flex: 1;
+}
+
+.ins {
+    display: none;
+}
+.ins .business img{
+	left: 20%;
+	width: 60%;
+}
+/*表单开始*/
+
+form {
+    padding-top: 64px;
+}
+
+form h3 {
+    margin-bottom: 45px;
+}
+
+.red {
+    color: red;
+}
+
+form .group {
+    text-align: center;
+    color: #666;
+}
+
+form .label_left {
+    color: #666;
+    font-weight: 400;
+}
+
+form .instructions {
+    height: 110px;
+    box-sizing: border-box;
+}
+
+.submit {
+    margin-top: 10px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    background: #0082de;
+    color: #fff;
+}
+
+.submit:hover {
+    background: #2999e9;
+}
+
+hr {
+    border-top: 2px solid #0082de;
+    margin-top: 70px;
+    margin-bottom: -20px;
+}
+
+.info {
+    display: none;
+    position: fixed;
+    top: 30%;
+    left: calc(50% - 190px);
+    width: 400px;
+    height: 200px;
+    background: url("../images/submit_success.png") center center no-repeat;
+    z-index: 10;
+    background-size: 100% 100%;
+}
+.error{
+    color: #E40C0C;
+}

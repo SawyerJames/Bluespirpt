@@ -1,0 +1,235 @@
+.section {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.tab {
+    text-align: center;
+    padding: 50px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.tab span {
+    font-size: 16px;
+    color: #ccc;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 15%;
+}
+
+.tab span:last-child {
+    margin-right: 0;
+}
+
+.tab .active {
+    color: #0082de;
+}
+
+.search {
+    padding: 50px 0;
+    display: inline-block;
+}
+
+.search input {
+    width: 400px;
+    height: 30px;
+    border: 1px solid #0082de;
+    border-radius: 5px 0 0 5px;
+    padding: 0 10px;
+}
+.search input:focus{
+	outline: none;
+}
+.search button {
+    width: 100px;
+    height: 32px;
+    background: #0082de;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    margin-left: -9px;
+    outline: none;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+.search button:active{
+	outline: none;
+}
+.search:hover button {
+    background: #60B9F8;
+    -webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+/**************** information  ****************/
+.information{
+	width: 75%;
+	height: auto;
+	display: inline-block;
+}
+.information li{
+	display: block;
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #C7C7C7;
+	margin-top: 3%;
+}
+.information li:first-child{
+	margin-top: 0;
+}
+.information li>div{
+	display: inline-block;
+}
+.information .imgContent{
+	width:20%; 
+}
+.information .imgContent img{
+	width: 100%;
+}
+.information .txtContent{
+	width: 62%;
+	vertical-align: top;
+	padding:0 2%;
+	border-right: 1px solid #C7C7C7;
+}
+.information .txtContent a {
+	color: #000000;
+}
+.information .txtContent h5{
+	width: 70%;
+	font-size: 15px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-webkit-transition: color .3s;
+	-o-transition: color .3s;
+	transition: color .3s;
+}
+.information .txtContent h5:hover{
+	color: #1080cf;
+	-webkit-transition: color .3s;
+	-o-transition: color .3s;
+	transition: color .3s;
+}
+.information .txtContent span{
+	width: 100%;
+	font-size: 12px;
+	color: #6A6A6A;
+	margin-top: 1.5%;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.information .dateContent{
+	padding-left: 2%;
+	width: 10%;
+	vertical-align: top;
+}
+.information .dateContent span{
+	margin-bottom: 10%;
+	display: block;
+}
+.information .dateContent span:nth-child(2){
+	font-size: 12px;
+	color: #BEBEBE;
+}
+.information .dateContent a{
+	display: block;
+	width: 35px;
+	height: 35px;
+	background: url('../images/right_arrow.png') no-repeat;
+	background-size: cover;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+.information .dateContent a:hover{
+	background: url('../images/right_arrow1.png') no-repeat;
+	background-size: cover;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+#msg_list,#company_list{
+	display: none;
+}
+/**************** hotMsg  ****************/
+.hotMsg{
+	width: 20%;
+	height: auto;
+	margin:-5% 0 0 3%;
+	display: inline-block;
+	vertical-align: top;
+}
+.hotMsg li{
+	display: block;
+	margin-top: 10%;
+}
+.hotMsg li:first-child{
+	margin-top: 0;
+}
+.hotMsg h5{
+	color: #000000;
+	margin-bottom: 5%;
+	-webkit-transition: color .3s;
+	-o-transition: color .3s;
+	transition: color .3s;
+}
+.hotMsg h5:hover{
+	color: #1080cf;
+	-webkit-transition: color .3s;
+	-o-transition: color .3s;
+	transition: color .3s;
+}
+.hotMsg li>div{
+	display: block;
+}
+.hotMsg .imgMsg{
+	width:90%; 
+}
+.hotMsg .imgMsg img{
+	width: 100%;
+}
+.hotMsg .txtMsg{
+	width: 100%;
+}
+.hotMsg .txtMsg h5{
+	margin-top: 2%;
+	font-size: 15px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.hotMsg .txtMsg span{
+	font-size: 12px;
+	color: #6A6A6A;
+	width: 100%;
+	margin-top: 3%;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.hotMsg .dateMsg{
+	width: 100%;
+}
+.hotMsg .dateMsg span{
+	margin-top:5%;
+	display: inline-block;
+	color: #6A6A6A;
+	font-size: 12px;
+}
+/************* 分页 ****************/
+#page{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
